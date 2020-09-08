@@ -1,0 +1,4 @@
+/AITMCLab/*
+!AITMCLab/__init__.py
+lab*/AITMCLab
+*.pyc
