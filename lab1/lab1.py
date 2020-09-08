@@ -1,5 +1,5 @@
 # Welcome to py2! First let's go through some basic grammars! 
-# Feel free to use '#' to lead a one-line comment
+# Feel free to use '#' to lead an one-line comment
 
 # Output something as you like
 print 'Hello XinXiSafetyShuXueBasic'
