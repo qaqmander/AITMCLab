@@ -88,10 +88,10 @@ message = 'flag{**********}'
 a, b = 7, 12
 cipher = affine(message, a, b)
 print cipher
-# vlmc{ko_lgdo_AITMCLmt_doby_swaj!!}
+# vlmc{ko_lgdo_MQPSALmt_doby_swaj!!}
 
 # Affine cryptography - 2: 
-#    Try to findout what happen and message withou a & b!!
+#    Try to findout what happen and message without a & b!!
 message = 'flag{**********}'
 a, b = ??, ??
 cipher = affine(message, a, b)
