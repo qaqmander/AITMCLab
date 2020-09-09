@@ -1,0 +1,3 @@
+flag{we_love_AITMCLab_very_much!!}
+
+flag{we_really_love_AITMCLab_very_much!!}
