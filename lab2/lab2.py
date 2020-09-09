@@ -107,7 +107,7 @@ print cipher
 message = 'flag{************}'
 
 # 2-dimentional matrix
-A = [[1, 2, 3, 4], [0, 3, 4, 5], [1, 5, 9, 10], [2, 10, 16, 7]]
+A = [[1, 2, 3, 4], [0, 3, 4, 5], [1, 5, 8, 10], [2, 10, 16, 8]]
 B = [6, 9, 12, 15]
 
 buf = '' 
@@ -131,4 +131,4 @@ for char in message:
             cipher += chr(Y[i] + ord('a'))
         buf = ''
 print cipher
-# fucv{uzkvxfumglwf}
+# fucb{uzpzxfrbgluj}
