@@ -3,5 +3,5 @@ flag{we_love_AITMCLab_very_much!!}
 flag{we_really_love_AITMCLab_very_much!!}
 
 flag{loveandpeace}
-A = [[1, 2, 3, 4], [0, 3, 4, 5], [1, 5, 8, 10], [2, 10, 16, 8]]
+A = [[1, 2, 3, 4], [0, 3, 4, 5], [1, 5, 8, 10], [2, 10, 15, 8]]
 B = [6, 9, 12, 15]

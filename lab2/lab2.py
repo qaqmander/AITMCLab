@@ -97,7 +97,7 @@ print cipher
 # Affine cryptography - 2: 
 #    Try to findout what happen and message without a & b!!
 message = 'flag{**********}'
-a, b = 11, 7
+a, b = ??, ??
 cipher = affine(message, a, b)
 print cipher
 # kyhv{pz_mzhyyl_yfez_HRIJDYhs_ezml_jtdg!!}
@@ -107,7 +107,7 @@ print cipher
 message = 'flag{************}'
 
 # 2-dimentional matrix
-A = [[1, 2, 3, 4], [0, 3, 4, 5], [1, 5, 8, 10], [2, 10, 16, 8]]
+A = [[1, 2, 3, 4], [0, 3, 4, 5], [1, 5, 8, 10], [2, 10, 15, 8]]
 B = [6, 9, 12, 15]
 
 buf = '' 
@@ -131,4 +131,4 @@ for char in message:
             cipher += chr(Y[i] + ord('a'))
         buf = ''
 print cipher
-# fucb{uzpzxfrbgluj}
+# fucb{uzpexfrygluh}
