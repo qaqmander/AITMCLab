@@ -1,4 +1,8 @@
 # Welcome to lab2, let's go through some grammars in python2
+# We use keyword 'assert' to check something
+assert 1 == 1    # Nothing happened
+# assert 1 == 2  # program will exits when executing this line
+
 # You have a string, remember to use '\' to escape special character
 a = 'I\'m a string'    # or a = "I'm a string"
 
@@ -93,9 +97,38 @@ print cipher
 # Affine cryptography - 2: 
 #    Try to findout what happen and message without a & b!!
 message = 'flag{**********}'
-a, b = ??, ??
+a, b = 11, 7
 cipher = affine(message, a, b)
 print cipher
 # kyhv{pz_mzhyyl_yfez_HRIJDYhs_ezml_jtdg!!}
 
-# Hill cryptography TODO
+# Hill cryptography (optional)
+# Difficult! Try to findout what happen and message
+message = 'flag{************}'
+
+# 2-dimentional matrix
+A = [[?, ?, ?, ?], [?, ?, ?, ?], [?, ?, ?, ?], [?, ?, ?, ?]]
+B = [?, ?, ?, ?]
+
+buf = '' 
+cipher = ''
+for char in message:
+    if 'a' <= char <= 'z':
+        buf += char
+    else:
+        cipher += char
+    if len(buf) == 4:
+        X = []
+        for ch in buf:
+            X.append(ord(ch) - ord('a'))
+        Y = [0, 0, 0, 0]
+        for i in range(4):
+            for j in range(4):
+                Y[i] = Y[i] + A[i][j] * X[j]
+            Y[i] = Y[i] + B[i]
+            Y[i] = Y[i] % 26
+        for i in range(4):
+            cipher += chr(Y[i] + ord('a'))
+        buf = ''
+print cipher
+# fucv{uzkvxfumglwf}
