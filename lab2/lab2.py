@@ -103,12 +103,12 @@ print cipher
 # kyhv{pz_mzhyyl_yfez_HRIJDYhs_ezml_jtdg!!}
 
 # Hill cryptography (optional)
-# Difficult! Try to findout what happen and message
+# May be difficult! Try to findout what happen and message
 message = 'flag{************}'
 
 # 2-dimentional matrix
-A = [[?, ?, ?, ?], [?, ?, ?, ?], [?, ?, ?, ?], [?, ?, ?, ?]]
-B = [?, ?, ?, ?]
+A = [[1, 2, 3, 4], [0, 3, 4, 5], [1, 5, 9, 10], [2, 10, 16, 7]]
+B = [6, 9, 12, 15]
 
 buf = '' 
 cipher = ''
