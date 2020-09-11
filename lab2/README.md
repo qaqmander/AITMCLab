@@ -31,3 +31,12 @@
   Decryption: $X=A^{-1}(Y-B)(mod\ p)$
 
   Here we encrypt multi-char in one round.
+
+## Changelog
+
+* 2020.9.9 First version
+* 2020.9.9 Grammar Bug from Huang Xiang
+* 2020.9.9 Add explanation of 'Assert' from Pan Haowen
+* 2020.9.9 Add A & B in Hill encryption
+* 2020.9.9 Bug fixed: Matrix A^{-1} not exists from Huang Xiang
+* 2020.9.10-2020.9.11 Add A^{-1} into lab2.py from Huang Xiang
