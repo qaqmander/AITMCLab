@@ -39,4 +39,4 @@
 * 2020.9.9 Add explanation of 'Assert' from Pan Haowen
 * 2020.9.9 Add A & B in Hill encryption
 * 2020.9.9 Bug fixed: Matrix A^{-1} not exists from Huang Xiang
-* 2020.9.10-2020.9.11 Add A^{-1} into lab2.py from Huang Xiang
+* 2020.9.10-2020.9.11 Add A^{-1} into lab2.py from Fu Yunhao
