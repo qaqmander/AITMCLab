@@ -97,7 +97,7 @@ print cipher
 # Affine cryptography - 2: 
 #    Try to findout what happen and message without a & b!!
 message = 'flag{**********}'
-a, b = ??, ??
+a, b = ??, ??    # We don't have a & b now !!!! hahahaha
 cipher = affine(message, a, b)
 print cipher
 # kyhv{pz_mzhyyl_yfez_HRIJDYhs_ezml_jtdg!!}
