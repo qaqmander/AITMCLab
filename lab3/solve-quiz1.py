@@ -36,4 +36,4 @@ def xor(s1, s2):
 
 key = xor(f, c1)
 m = xor(key, c2)
-print m
+print m  # flag{Congratulation!_quiz1_passed!!!}

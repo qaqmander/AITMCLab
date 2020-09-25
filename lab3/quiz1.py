@@ -6,7 +6,7 @@ from AITMCLab.Crypto.Util.number import getPrime
 from AITMCLab.Crypto.Util.number import isPrime
 from AITMCLab.Crypto.Util.number import inverse
 
-flag = 'flag{Congratulation!_quiz1_passed!!!}'
+flag = 'flag{**********}'
 
 def nextPrime(n):
     n += 2 if n & 1 else 1
