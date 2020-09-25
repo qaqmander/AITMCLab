@@ -21,7 +21,7 @@
 * ​    Encryption: $c=m^e(mod\ n)$
 * ​    Decryption: $m=c^d(mod\ n)$
 * Quiz 1 (VERY VERY VERY HAAARD!!!!!!)
-* ​    I prepare 3 questions, and here is the easiest one. Happy Hacking!
+* ​    I have prepared 3 questions, and here is the easiest one. Happy Hacking!
 
 ## Acknowledgement
 
@@ -31,4 +31,4 @@ Zhang Yupeng(g0vi), for quiz providing
 
 ## Changelog
 
-* 
+* 2020.9.26 First version

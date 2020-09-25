@@ -67,14 +67,12 @@ if __name__ == "__main__":
 
     E = nextPrime(e)
     f = math.factorial(e) % E   # f = e! mod E
-    print 'f =',f
 
     d = long_to_bytes(f)
 
     c1 = bytes_to_long(Encrypt(key, d))
     print 'c1 =', c1
 
-    print key.__repr__(), flag
     c2 = bytes_to_long(Encrypt(key, flag))
     print 'c2 =', c2
 
