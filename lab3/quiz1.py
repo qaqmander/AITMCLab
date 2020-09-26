@@ -38,7 +38,6 @@ def Encrypt(key, D):
         i = (i + 1) % 256
         j = (j + S[i]) % 256
         S[i], S[j] = S[j], S[i]
-        t = (S[i] + S[j]) % 256
         k = chr(a ^ S[(S[i] + S[j]) % 256])
         result += k
     return result
@@ -54,7 +53,6 @@ def Decrypt(key, D):
         i = (i + 1) % 256
         j = (j + S[i]) % 256
         S[i], S[j] = S[j], S[i]
-        t = (S[i] + S[j]) % 256
         k = chr(a ^ S[(S[i] + S[j]) % 256])
         result += k
     return result
