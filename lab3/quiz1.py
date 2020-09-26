@@ -64,7 +64,7 @@ if __name__ == "__main__":
     print 'e =', e
 
     E = nextPrime(e)
-    f = math.factorial(e) % E   # f = e! mod E
+    f = math.factorial(e) % E   # f = e! mod E and you CANNOT calculate it directly!! hahaha
 
     d = long_to_bytes(f)
 
