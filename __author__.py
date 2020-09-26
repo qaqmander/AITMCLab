@@ -9,4 +9,5 @@ __close_alpha_participant__ = [
     ('Fu Yunhao', 2019),
     ('Fang Yijia', 2019),
     ('Zhuang Wolin', 2019),
+    ('Luo Yuanchao', 2019)
 ]
