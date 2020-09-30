@@ -36,5 +36,15 @@ python2.7，运行时需要把提供的AITMCLab文件夹和源文件置于同一
 ### lab2
 
 * Introduction to py2
+
 * Affine cryptography
+
 * Hill cryptography (%26)
+
+### lab3
+
+* Introduction to py2
+
+* Modulo cryptography (%p) 
+
+* Quiz1
