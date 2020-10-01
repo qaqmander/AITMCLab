@@ -16,7 +16,8 @@ def nextPrime(n):
 
 def gen_keystream(K, length):
     j = 0
-    S = k = []
+    S = []
+    k = []
     K = list(K)
     for i in range(len(K)):
         K[i] = ord(K[i])
