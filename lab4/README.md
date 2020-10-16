@@ -4,6 +4,7 @@
 
 * Primitive root
 * Something wonderful about Euler function 
+* Quiz2: VERY VERY VERY HARD
 
 ## Quick View
 
