@@ -34,4 +34,4 @@ phi_=invmod(phi,n)
 aa = t1 * phi_ % n
 print aa
 print n2s(aa)
-
+# flag = s2n('flag{can_you_find_me??}')
