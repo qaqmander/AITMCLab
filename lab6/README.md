@@ -92,4 +92,4 @@ Encryption procedure and signifying procedure are both RANDOM
 ## Changelog
 
 * 2020.12.13 First version
-
+* 2020.12.14 Fix typo, from fyh
