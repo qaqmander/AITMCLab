@@ -44,7 +44,7 @@ key generation: $keygen()=(PUB\_KEY, PRI\_KEY)$
 
 signify: $signify(M,PRI\_KEY)=SIG$
 
-verify: $verify(M, SIG, PUB\_KEY)=RES\in \{TURE,FALSE\}$
+verify: $verify(M, SIG, PUB\_KEY)=RES\in \{TRUE,FALSE\}$
 
 Required:
 
