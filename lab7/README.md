@@ -1,8 +1,8 @@
-# AITMCLab6
+# AITMCLab7
 
 ## Content
 
-* Pohlig-Hellman algorithm
+* Quiz4: Pohlig-Hellman algorithm
 
 ## Lecture Note
 
@@ -16,6 +16,7 @@ Assume cyclic group $G=Z^*_n$ with prime $n$, where $n-1=\prod_{i=1}^rp_i^{e_i}$
 
 ## Changelog
 
-* 2020.12.13 First version
-* 2020.12.14 Fix typo, from fyh
+* 2020.12.21 First version
+
+  
 
