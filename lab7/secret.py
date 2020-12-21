@@ -1,0 +1,1 @@
+flag = 'flag{4lw4ysR3m3mb3rT0UseStr0ngPr1meNumb3r}'
