@@ -35,3 +35,7 @@ Zhang Yupeng(g0vi), for quiz providing
 * 2020.9.26 Fix bug about sys.path, from Hu Ruinan
 * 2020.9.26 Remove unused local variable 't' in quiz1, from Renexh
 * 2020.9.26 Add explanation about exception raised by math.factorial
+
+## Attention
+
+You must submit complete writeup, including how you think about it, exploiting codes, and flag to get bonus score. (pdf only)
