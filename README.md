@@ -48,3 +48,39 @@ python2.7，运行时需要把提供的AITMCLab文件夹和源文件置于同一
 * Modulo cryptography (%p) 
 
 * Quiz1
+
+### lab4
+
+* Primitive root
+
+* Something wonderful about Euler function
+
+* Quiz2: VERY VERY VERY HARD
+
+### lab5
+
+* Quiz3, about Quadratic Residue
+
+### lab6
+
+* Elgamal Encryption Scheme
+
+* Definition: Digital Signature
+
+* Elgamal Signature Scheme
+
+### lab7
+
+* Quiz4: Pohlig-Hellman algorithm
+
+### lab8
+
+* [SageMath - Open-Source Mathematical Software System](https://www.sagemath.org/)
+
+* Wiener Attack, with SageMath
+
+* Discrete Logarithm, with SageMath
+
+* Lattice Attack with SageMath: Common Private Exponent RSA
+
+* Final Quiz: Lattice Attack with SageMath: Knapsack
